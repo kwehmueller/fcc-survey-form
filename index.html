@@ -60,9 +60,11 @@
     <!--User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.-->
     <div>
       <label for="recommend">Would you recommend working here to a friend or colleague?:</label>
-      <input type="radio" class="recommend" name="yes-recommend" value="Yes" checked> Yes 
-      <input type="radio" class="recommend" name="no-recommend" value="No"> No 
-      <input type="radio" class="recommend" name="unsure-recommend" value="Unsure"> I'm not sure. 
+      <fieldset>
+        <input type="radio" class="recommend" name="yes-recommend" value="Yes" checked> Yes 
+        <input type="radio" class="recommend" name="no-recommend" value="No"> No 
+        <input type="radio" class="recommend" name="unsure-recommend" value="Unsure"> I'm not sure. 
+      </fieldset>
     </div>
 
     <!--User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.-->
