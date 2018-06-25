@@ -22,8 +22,12 @@ label {
 
 }
 
-input::placeholder {
+select {
     
+}
+
+input::placeholder {
+
 }
 
 input {
